@@ -36,6 +36,8 @@ public class IntArrayList implements IntList {
         return modArray;
     }
 
+    // 2*) Добавить в IntList методы которые позволяют вставить в средину и удалить по индексу.
+    
     @Override
     public void deleteElement(int index) {
         int[] modArray = new int[array.length - 1];
